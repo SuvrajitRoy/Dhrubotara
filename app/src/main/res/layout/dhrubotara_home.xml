@@ -1,0 +1,23 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="16dp"
+    android:background="#FFF8DC">
+
+    <TextView android:id="@+id/tvDsH"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:text="Dhrubotara Social &amp; Cultural Organization- working for helping our needy people,ensure the basic rights of local people;provide them social services for a sustainable development. to create our future youth generation as a future leader, good citizen of our motherland- Bangladesh. We want to establish a free,fair,harmonious society based on equal human &amp; civil rights- where people of every walk of life will enjoy equal rights,equal opportunities as economic and social.We need strong fund for our present &amp; future project. We are committed for maintains full of transparency &amp; work with honesty, integrity. DSCO is ready to joint movement with friend organization &amp; Sponsors. Trust us and join with us.
+     \n\nWe have two sister concern Dhrubotara Youth development Foundation (DYDF) &amp; Dhrubotara Women and Children Development Foundation (DWCDF). "
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        />
+
+</RelativeLayout>
+   </ScrollView>

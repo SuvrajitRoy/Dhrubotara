@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="16dp"
+    android:background="#FFF8DC">
+    <RelativeLayout android:id="@+id/layout1"
+        android:layout_height="120dp"
+        android:layout_width="match_parent"
+        android:background="#66ccff">
+        <TextView android:id="@+id/tvDyH1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text=" Welcome To DYDF"
+            android:textColor="#000000"
+            android:textSize="40sp"/>
+    </RelativeLayout>
+
+    <View android:id="@+id/viewDyH1"
+        android:layout_width="300dp"
+        android:layout_height="10dp"
+        android:background="#FFF8DC"
+        android:layout_below="@id/layout1"/>
+
+    <RelativeLayout android:id="@+id/layout2"
+        android:layout_height="200dp"
+        android:layout_width="match_parent"
+        android:background="#FFF8DC"
+        android:layout_below="@id/viewDyH1">
+
+        <TextView android:id="@+id/tvDyH2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="\nDYDF is a sister concern of Dhrubotara Social &amp; Cultural Organization(DSCO). It is a specialized forum for the development of youth group in Bangladesh. "
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+

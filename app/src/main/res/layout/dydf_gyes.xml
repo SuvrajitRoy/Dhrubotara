@@ -1,0 +1,47 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="16dp"
+    android:background="#FFF8DC">
+    <RelativeLayout android:id="@+id/layout1"
+        android:layout_height="80dp"
+        android:layout_width="match_parent"
+        android:background="#66ccff">
+        <TextView android:id="@+id/tvDyG1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text=" Welcome To GYES"
+            android:textColor="#000000"
+            android:textSize="30sp"/>
+    </RelativeLayout>
+
+    <View android:id="@+id/viewDyG"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#FFF8DC"
+        android:layout_below="@id/layout1"/>
+
+    <RelativeLayout android:id="@+id/layout2"
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:background="#ffffff"
+        android:layout_below="@id/viewDyG">
+
+        <TextView android:id="@+id/tvDyG2"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:text="\nGlobal Youth Entrepreneurs Summit 2015 Bangladesh is an event of Global Entrepreneurship Week, which is going to be the world's biggest platform for entrepreneurs. The Summit will take place on November 20-22, 2015 at Bangabandhu International Conference Center. 500 Young Entrepreneurs, between 18 to 35 years of age, from around the world are going to join as delegate in the summit."
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+    </ScrollView>
+

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF8DC">
+
+    <Button
+        android:id="@+id/dsssbutton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:background="#006666"
+         android:textColor="@android:color/primary_text_dark_nodisable"
+        
+         />
+    
+
+    <Button
+        android:id="@+id/dsssbutton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About DSSS"
+       android:background="#ff803a66"
+        android:textColor="@android:color/primary_text_dark_nodisable"
+         />
+
+    <Button
+        android:id="@+id/dsssbutton3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Executive Committee"
+        android:background="#006666"
+         android:textColor="@android:color/primary_text_dark_nodisable"
+         />
+
+    <Button
+        android:id="@+id/dsssbutton4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What we do"
+       android:background="#ff803a66"
+        android:textColor="@android:color/primary_text_dark_nodisable"
+        />
+    <Button
+        android:id="@+id/dsssbutton5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Partner"
+        android:background="#006666"
+        android:textColor="@android:color/primary_text_dark_nodisable" />
+    <Button
+        android:id="@+id/dsssbutton6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:background="#ff803a66"
+         android:textColor="@android:color/primary_text_dark_nodisable"
+       />
+
+</LinearLayout>

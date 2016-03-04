@@ -1,0 +1,21 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="16dp"
+    android:background="#FFF8DC">
+
+        <TextView android:id="@+id/tvDsP"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Partner Organizations-
+\n\nGandhi Ashram Trust, World Peace Mission, Ain o Salish Kendro, Green Saver &amp; Welfare of India, Green Youth Generation,BGN, WWFLM, Srilankan United Nations Friendship Organization (SUNFO), Entrepreneurs forum, South Asian Cultural Alliance, Care Bangladesh.
+\n\nPublic Sector partner-
+\n\nMinistry of Cultural Affairs, Social Welfare Ministry, Youth &amp; Sports Ministry and Women &amp; Children Affairs Ministry of the People Republic of Bangladesh."
+android:textColor="#000000"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+    </ScrollView>

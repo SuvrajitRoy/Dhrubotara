@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="16dp"
+    android:background="#FFF8DC">
+    <RelativeLayout android:id="@+id/layout1"
+        android:layout_height="150dp"
+        android:layout_width="match_parent"
+        android:background="#996633">
+        <TextView android:id="@+id/tvDsC1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Head Office:
+
+Komol kutir, Mondolpara, Chowmuhani
+
+ Begumgonj, Noakhali,Bangladesh"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+
+    <View android:id="@+id/viewDsC1"
+        android:layout_width="300dp"
+        android:layout_height="10dp"
+        android:background="#FFF8DC"
+        android:layout_below="@id/layout1"/>
+
+    <RelativeLayout android:id="@+id/layout2"
+        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:background="#00cccc"
+        android:layout_below="@id/viewDsC1">
+
+        <TextView android:id="@+id/tvDsC2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Dhaka Office:
+'Simontini Production House', 121/3 New Escaton, Dhaka-1000"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+
+    </RelativeLayout>
+    <View android:id="@+id/viewDsC2"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#FFF8DC"
+        android:layout_below="@id/layout2"/>
+
+    <RelativeLayout android:id="@+id/layout3"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="#FFF8DC"
+        android:layout_below="@+id/viewDsC2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+        <TextView android:id="@+id/tvDsC3"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Contact Phone Number:"
+            android:textColor="#990000"
+            android:textSize="20sp"/>
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:id="@+id/imageButton1"
+            android:src="@drawable/call"
+            android:onClick="call"
+            android:layout_alignBottom="@+id/imageButton2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:id="@+id/imageButton2"
+            android:src="@drawable/call"
+            android:onClick="call2"
+            android:layout_below="@+id/tvDsC3"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+        <TextView android:id="@+id/tvDsC4"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="E-mail:
+dsss.org.bd@gmail.com"
+            android:textColor="#990000"
+            android:textSize="20sp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView android:id="@+id/tvDsC5"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="\nFacebook Page:"
+            android:layout_below="@+id/tvDsC4"
+            android:textColor="#990000"
+            android:textSize="20sp"/>
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="90dp"
+            android:id="@+id/imageButton3"
+            android:src="@drawable/fb"
+            android:onClick="fb"
+            android:layout_below="@+id/tvDsC4"
+            android:layout_toLeftOf="@+id/imageButton2"
+            android:layout_toStartOf="@+id/imageButton2" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

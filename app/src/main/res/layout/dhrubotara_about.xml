@@ -1,0 +1,23 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="16dp"
+    android:background="#FFF8DC">
+
+        <TextView android:id="@+id/tvDsA"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Dhrubotara is a non-political, non-communal, non-profitable, volunteer organization. The unity of its members &amp; whole hearten support of people is the driving power of this organization. It was started from 3rd November,2000 as a cultural &amp; child organization. DSSS was re-organized with strong organizational structure in 2009.It maintains a participatory culture in its process of planning, decision-making &amp; implementation. It works for social, economical development of Bangladesh. Its works with youth group, children, teen-age, adolescent  &amp; different community groups. Social development &amp; fulfill the goal of organization is its vision.
+\n\nIt is registered under the (1961's Volunteer Organizations Act) Social Welfare Ministry and the Youth &amp; Sports Ministry of the people republic of Bangladesh. We received many awards for our creative works. Dhrubotara means polestar- we working last 14 years in Bangladesh, with honesty and goodwill. We are always work for humanity. We also work on climate change- environment issues, peace building and anti violence issues, women empowerment, youth development, cultural development, entrepreneurship &amp; leadership, health and education issue. We already work on human rights - good governance, rights based work in our working areas. Poor, landless, mass people of rural level are beneficiary. We need fund &amp; support.
+\n\nOur working areas:
+\n\nNoakhali, Laxmipur, Feni, Dhaka,Chittagong, Comilla, Chadpur,Gopalganj, Munsigonj, Bhola &amp; Barisal, Rajshahi , Potuakhali.
+\n\nFuture working area :
+\n\nAll over Bangladesh (We are continue working on it)"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+    </ScrollView>

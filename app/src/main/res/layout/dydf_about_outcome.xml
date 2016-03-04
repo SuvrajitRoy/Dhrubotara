@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView android:id="@+id/tvDyAbO"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="\nA total 7000 youth among 2000 girls were organized in 17 districts of Bangladesh.
+\n\nEstablished community based youth organizations in maximum sub districts of nine districts.
+\n\nOrganized a “Summit on Entrepreneurship &amp; Leadership (SEL)”in 2014 compare to as an international level summit to create collective voice and learning dissemination among youth, activists, civil society, administrators, policy makers and development organization
+\n\nEstablished strong collaboration network with the local service providers and local government agencies in seventeen districts and Deputy Commissioner Office, DSCO&amp; DYDF has developed partnership collaboration with Gandhi Ashram Trust, Youth entrepreneurs Leaders League, The world wide family movement, South Asian Cultural Alliance , Adaptation Fund Network, Ain o Salish Kendro, BELA,SAARC Youth Association and GEW, ADAB,E-Cab,Bangladesh youth leadership Center for empowering youth groups and community development.
+\n\nImproving the moral values and cultural improvement of youth through counseling, meditation process and cross country learning share
+\n\nObtained many awards and financial support from privet sectors, organizations and government agencies as a youth leadership promoter in nine districts.
+\n\nDeveloped close cultural attachments of youth with the youth line agencies at the government and non government levels.
+\n\nDhrubotara completed different project with Social Welfare Ministry, ICT Ministry and Youth Ministry as a partner.
+\n\nDhrubotara completed different project with Social Welfare Ministry, ICT Ministry and Youth Ministry as a partner.
+\n\nWe successfully completed “Youth Parliament to Explore Future Bangladesh” event at Senate hall of Dhaka University including 456 youth delegate from each sub districts of Bangladesh. We arranging different program for their leadership development and community engagement for a positive change.
+\n\nWe completed E-Commerce Fair 2014 at Shahbag partnering with Computer Jagat
+\n\nDhrubotara achieved best Youth Organization Award from Youth Ministry on National Youth Day 2014.
+\n\nWe have law support wing of DYDF for free legal aid support. We maintain a helpline service for legal support and university admission-career related information support to people."
+        android:textColor="#000000"
+        android:textSize="20sp"/>
+
+</LinearLayout>
+    </ScrollView>

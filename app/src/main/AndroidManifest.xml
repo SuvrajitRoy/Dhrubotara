@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cste.nstu06.suvro.dhrubotara" >
+
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-feature android:name="android.hardware.telephony"
+        android:required="true"/>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.cste.nstu06.suvro.dhrubotara.Splash"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cste.nstu06.suvro.dhrubotara.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.cste.nstu06.suvro.dhrubotara.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".DhrubotaraAbout"></activity>
+        <activity android:name=".DhrubotaraHome"></activity>
+        <activity android:name=".DhrubotaraExCommittee"></activity>
+        <activity android:name=".DhrubotaraWhatDo"></activity>
+        <activity android:name=".DhrubotaraPartner"></activity>
+        <activity android:name=".DhrubotaraContact"></activity>
+
+        <activity android:name=".DydfHome"></activity>
+        <activity android:name=".DydfAbout"></activity>
+        <activity android:name=".DydfAbVission"></activity>
+        <activity android:name=".DydfAbMission"></activity>
+        <activity android:name=".DydfAbAct"></activity>
+        <activity android:name=".DydfAbOutcome"></activity>
+        <activity android:name=".DydfGyes"></activity>
+        <activity android:name=".DydfBoard"></activity>
+        <activity android:name=".DydfContact"></activity>
+    </application>
+
+</manifest>
+
+
+    <!--<application-->
+        <!--android:allowBackup="true"-->
+        <!--android:icon="@drawable/ic_launcher"-->
+        <!--android:label="@string/app_name"-->
+        <!--android:theme="@style/AppTheme" >-->
+        <!--<activity-->
+            <!--android:name="com.cste.nstu06.suvro.dhrubotara.MainActivity"-->
+            <!--android:label="@string/app_name" >-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+    <!--</application>-->
+
+<!--</manifest>-->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView android:id="@+id/tvDyAbM"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="\nTo promote linkages among the youth groups to raise voyages on rights and entitlement
+\n\nTo access information and skills for own development and as well as nation progress
+\n\nTo create peace keeping harmony in the community to institute enabling environment for all at locally and globally.
+\n\nTo cope up the challenges against local social issues and environment hazards"
+        android:textColor="#000000"
+        android:textSize="20sp"/>
+
+</LinearLayout>
+    </ScrollView>

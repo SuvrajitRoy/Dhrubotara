@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView android:id="@+id/tvDyAbA"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="\nOrganizing youth through volunteeries activities
+\n\nPromoting to institute youth linkages and collaboration at community levels
+\n\nBuilding capacity of youth in leadership promotion in a democratic way
+\n\nArranging skills training for self employment
+\n\nPromoting participation of youth in entrepreneurship and value chain marketing process
+\n\nImproving the moral values and cultural improvement of youth through counseling, meditation process and cross country learning share
+\n\nTo create opportunity to participate in technological innovations."
+        android:textColor="#000000"
+        android:textSize="20sp"/>
+
+</LinearLayout>
+    </ScrollView>

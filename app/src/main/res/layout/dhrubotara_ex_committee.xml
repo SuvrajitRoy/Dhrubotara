@@ -1,0 +1,22 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="16dp"
+    android:background="#FFF8DC">
+
+    <TextView android:id="@+id/tvDsE"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Working Committee: 11 members
+\n\nGeneral Committee: 51 members
+\n\nAdvisory committee: 09 members
+\n\nPlenary Board : 11 members
+\n\nVolunteer supporter group: 6500 members "
+        android:textColor="#000000"
+        android:textSize="20sp"/>
+</RelativeLayout>
+    </ScrollView>
